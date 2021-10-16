@@ -4,5 +4,5 @@
 <p align="center">
   <img src="https://github.com/LevProg/python-public-API/blob/main/post-get.png?raw=true" />
 </p>
-### We will use our own computer as a server and ngrok as a proxy.
-### ngrok - https://ngrok.com/download
+## We will use our own computer as a server and ngrok as a proxy.
+## ngrok - https://ngrok.com/download
