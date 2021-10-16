@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PublicAPI", "PublicAPI.pyproj", "{A470E335-FB69-49F9-8227-ECAC7CE7047D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A470E335-FB69-49F9-8227-ECAC7CE7047D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A470E335-FB69-49F9-8227-ECAC7CE7047D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A962056D-DBF2-43A4-B5D9-F99C2B0D5D52}
+	EndGlobalSection
+EndGlobal
