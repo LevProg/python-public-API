@@ -12,13 +12,17 @@ We will use our own computer as a server and ngrok as a proxy.
 ngrok - https://ngrok.com/download
 
 With 'PublicAPI.py' we start a local server
+
 ![alt text](https://github.com/LevProg/python-public-API/blob/main/localServer.png?raw=true)
 
 Next, open ngrok.exe and run the proxy with the command: 'ngrok http your_port', in our case our port is 4567, in response we will receive the URL
+
 ![alt text](https://github.com/LevProg/python-public-API/blob/main/proxy.png?raw=true)
 
 We will check the functionality of the API using the 'TestPublicAPI.py' file, we send a request with a photo to the URL received from ngrok.
+
 ![alt text](https://github.com/LevProg/python-public-API/blob/main/request.png?raw=true)
 
 Also we can just go to the received URL and send the file manually
+
 ![alt text](https://github.com/LevProg/python-public-API/blob/main/site.png?raw=true)
