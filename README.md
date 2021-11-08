@@ -19,11 +19,11 @@ With 'PublicAPI.py' we start a local server
 ```
 
 
-Next, open ngrok.exe and run the proxy with the command: 'ngrok http your_port', in our case our port is 4444, in response we will receive the URL
+Next, open ngrok.exe and run the proxy with the command: 'ngrok http your_port', in our case, our port is 4444, in response we will receive a lot of information, including the URL
 
 
 ```cmd
-  Session Status                online                                                                                    Session Expires               1 hour, 57 minutes                                                                        Version                       2.3.40                                                                                    Region                        United States (us)                                                                        Web Interface                 http://127.0.0.1:4042                                                                     Forwarding                    http://bbce-5-142-42-152.ngrok.io -> http://localhost:4444                                Forwarding                    https://bbce-5-142-42-152.ngrok.io -> http://localhost:4444                                                                                                                                                       Connections                   ttl     opn     rt1     rt5     p50     p90                                                                             0       0       0.00    0.00    0.00    0.00                                                                                                                               
+        Forwarding                    http://bbce-5-142-42-152.ngrok.io -> http://localhost:4444                                       
 ```
 
 
