@@ -34,8 +34,7 @@ We will check the functionality of the API using the 'TestPublicAPI.py' file, we
     import json
 
     files = {'file': open('TestImage.png','rb')}
-    q = requests.post('http://e252-178-67-199-112.ngrok.io', files=files).text
-    print(q)
+    print(requests.post('http://e252-178-67-199-112.ngrok.io', files=files).text)
 ```
 
 Also we can just go to the received URL and send the file manually
