@@ -23,7 +23,7 @@ Next, open ngrok.exe and run the proxy with the command: 'ngrok http your_port',
 
 
 ```cmd
-        Forwarding                    http://bbce-5-142-42-152.ngrok.io -> http://localhost:4444                                       
+    Forwarding          http://bbce-5-142-42-152.ngrok.io -> http://localhost:4444
 ```
 
 
