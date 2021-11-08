@@ -22,7 +22,7 @@ With 'PublicAPI.py' we start a local server
 Next, open ngrok.exe and run the proxy with the command: 'ngrok http your_port', in our case our port is 4444, in response we will receive the URL
 
 
-```ngrok
+```cmd
    ngrok http 4444
 ```
 
