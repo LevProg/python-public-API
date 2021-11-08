@@ -23,7 +23,7 @@ Next, open ngrok.exe and run the proxy with the command: 'ngrok http your_port',
 
 
 ```cmd
-    Forwarding          http://bbce-5-142-42-152.ngrok.io -> http://localhost:4444
+    Forwarding          http://52b3-5-142-42-152.ngrok.io -> http://localhost:4444
 ```
 
 
@@ -34,9 +34,12 @@ We will check the functionality of the API using the 'TestPublicAPI.py' file, we
     import json
 
     files = {'file': open('TestImage.png','rb')}
-    print(requests.post('http://e252-178-67-199-112.ngrok.io', files=files).text)
+    print(requests.post('http://52b3-5-142-42-152.ngrok.io', files=files).text)
 ```
-
+In response, we receive the directions of the signs
+```cmd
+    Прямо,Направо+Прямо
+```
 Also we can just go to the received URL and send the file manually
 
 ![alt text](https://github.com/LevProg/python-public-API/blob/main/site.png?raw=true)
