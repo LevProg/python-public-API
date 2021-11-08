@@ -29,7 +29,14 @@ Next, open ngrok.exe and run the proxy with the command: 'ngrok http your_port',
 
 We will check the functionality of the API using the 'TestPublicAPI.py' file, we send a request with a photo to the URL received from ngrok.
 
-![alt text](https://github.com/LevProg/python-public-API/blob/main/request.png?raw=true)
+```python
+    import requests
+    import json
+
+    files = {'file': open('TestImage.png','rb')}
+    q = requests.post('http://e252-178-67-199-112.ngrok.io', files=files).text
+    print(q)
+```
 
 Also we can just go to the received URL and send the file manually
 
