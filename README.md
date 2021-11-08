@@ -40,6 +40,3 @@ In response, we receive the directions of the signs
 ```cmd
     Прямо,Направо+Прямо
 ```
-Also we can just go to the received URL and send the file manually
-
-![alt text](https://github.com/LevProg/python-public-API/blob/main/site_view.png?raw=true)
