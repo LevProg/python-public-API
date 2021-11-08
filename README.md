@@ -23,7 +23,7 @@ Next, open ngrok.exe and run the proxy with the command: 'ngrok http your_port',
 
 
 ```cmd
-   ngrok http 4444
+  Session Status                online                                                                                    Session Expires               1 hour, 57 minutes                                                                        Version                       2.3.40                                                                                    Region                        United States (us)                                                                        Web Interface                 http://127.0.0.1:4042                                                                     Forwarding                    http://bbce-5-142-42-152.ngrok.io -> http://localhost:4444                                Forwarding                    https://bbce-5-142-42-152.ngrok.io -> http://localhost:4444                                                                                                                                                       Connections                   ttl     opn     rt1     rt5     p50     p90                                                                             0       0       0.00    0.00    0.00    0.00                                                                                                                               
 ```
 
 
