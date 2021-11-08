@@ -13,7 +13,11 @@ ngrok - https://ngrok.com/download
 
 With 'PublicAPI.py' we start a local server
 
-![alt text](https://github.com/LevProg/python-public-API/blob/main/localServer.png?raw=true)
+```python
+    if __name__ == "__main__":
+      app.run(host='0.0.0.0', port=4444)
+```
+
 
 Next, open ngrok.exe and run the proxy with the command: 'ngrok http your_port', in our case our port is 4567, in response we will receive the URL
 
